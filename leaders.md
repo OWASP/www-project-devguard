@@ -1,4 +1,4 @@
 ### Leaders
-* [Leader Name](mailto:leader.email@owasp.org)
-* [Leader Name](mailto:leader.email@owasp.org)
-* [Leader Name](mailto:leader.email@owasp.org)
+* [Tim Bastin](mailto:Tim.bastin@owasp.org)
+* [Sebastian Kawelke](mailto:Sebastian.kawelke@owasp.org)
+* [Frédéric Noppe](mailto:Frédéric.noppe@owasp.org)

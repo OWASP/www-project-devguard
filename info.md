@@ -19,6 +19,7 @@
 ### External Resources
 
 * [Documentation](https://flawfix.dev/docs/getting-started)
+* [Join the Discord](https://discord.gg/bTPytR7Uau)
 * [Website](https://flawfix.dev/)
 * [Maintaining organisation](https://l3montree.com/)
 

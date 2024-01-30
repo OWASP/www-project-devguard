@@ -2,21 +2,27 @@
 
 layout: col-sidebar
 title: OWASP FlawFix
-tags: example-tag
+tags: flawfix vulnerability-management sbom cve cwe
 level: 2
 type: 
-pitch: A very brief, one-line description of your project
+pitch: A usable central vulnerability management system for developers and security teams.
 
 ---
 
-This is an example of a Project or Chapter Page.  Please change these items to indicate the actual information you wish to present.  In addition to this information, the 'front-matter' above this text should be modified to reflect your actual information.  An explanation of each of the front-matter items is below:
+In today's world, where cyber threats and the number of known vulnerabilities in IT systems are constantly increasing, vulnerability management is becoming a central pillar of IT security. It is also reflected in the requirements of internationally recognized standards and security frameworks. In those, the management of software vulnerabilities (risks) is an explicit or implicit requirement (e.g. CIS, ISO 27001, NIST, PCI DSS).
 
-layout: This is the layout used by project and chapter pages.  You should leave this value as col-sidebar
+Manual vulnerability management is a time-consuming and error-prone process. Given the complexity and scope of today's IT systems, it is almost impossible to identify and fix all vulnerabilities effectively and in a timely manner. The ineffective management of vulnerabilities through manual procedures, without adequate support, evaluation, and summarization using inappropriate tools such as spreadsheets, also increases the likelihood of no management at all. 
 
-title: This is the title of your project or chapter page, usually the name.  For example, OWASP Zed Attack Proxy or OWASP Baltimore
+At the same time, the landscape of software development has changed fundamentally. The introduction of DevOps practices has led to faster and more agile software development and deployment. In this context, there is a need to consider security as an integral part of the development process, which has led to the emergence of DevSecOps. DevSecOps integrates security aspects directly into the continuous development, integration and deployment process.
 
-tags: This is a space-delimited list of tags you associate with your project or chapter.  If you are using tabs, at least one of these tags should be unique in order to be used in the tabs files (an example tab is included in this repo) 
+To adhere to security regulations in this fast-paced and ever-changing environment, organisations must implement an effective vulnerability management system that also meets the requirements of DevOps and DevSecOps. This requires a strategy that not only enables the identification and remediation of vulnerabilities in an agile development environment, but also includes continuous monitoring and adaptation to new threats. Effective vulnerability management is therefore essential to ensure security in the modern IT landscape while supporting the agility and speed of the DevOps methodology.
 
-level: For projects, this is your project level (2 - Incubator, 3 - Lab, 3.5 - Production, 4 - Flagship)
+FlawFix aims to address these challenges through modern, high-performance, open-source and integrated vulnerability management.
 
-type: code, documentation, or other
+### Core Principles of FlawFix
+
+1. FlawFix is distinguished by its user-friendly design, making it accessible even to those with limited technical expertise. It integrates effortlessly into existing IT infrastructures, reducing barriers to adoption and easing the transition for organisations.
+
+2. In the rapidly changing software development landscape, FlawFix embraces the principles of DevSecOps. It is designed to adapt to agile and frequent software updates, integrating security into the continuous development process.
+
+3. Lastly, FlawFix places a strong emphasis on data protection and security. It is geared towards managing sensitive vulnerability data securely, with plans to incorporate advanced encryption and engage in research collaborations for confidential computing.

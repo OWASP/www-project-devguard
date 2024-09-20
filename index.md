@@ -25,7 +25,7 @@ Not all vulnerabilities pose the same level of risk to your project. Effective p
 
 To further illustrate the importance of prioritizing vulnerabilities, consider our Sankey diagram, which demonstrates how many high CVSS vulnerabilities are reassessed and reprioritized. The diagram shows that a significant portion of these vulnerabilities are mapped to EPSS scores in the 0-10% range, indicating a lower likelihood of exploitation. This visual representation underscores the necessity of a nuanced approach to vulnerability management, where not all "critical" CVEs are treated equally, but rather prioritized based on their actual risk.
 
-<img src="docs/sankey.png">
+<img src="assets/images/sankey.png">
 <p>
     <em>Sankey diagram showing the CVSS Base-Score and the adjusted score after applying threat intelligence and the application security requirements to the cvss calculation. The scores then get mapped to their corresponding EPSS (Exploit prediction scoring system).</em>
 
@@ -44,7 +44,7 @@ To further illustrate the importance of prioritizing vulnerabilities, consider o
 
 > DevGuard aims to accompany developers in implementing the OWASP-DevSecOps pipeline in the best way possible, without requiring extensive cybersecurity knowledge. We plan provide a wrapper CLI to a curated list of scanners for different stages and seamless integration with the management backend, ensuring that security is integrated smoothly into the development workflow.
 
-<img src="docs/devsecops-pipeline.png">
+<img src="assets/images/devsecops-pipeline.png">
 
 The OWASP DevSecOps pipeline integrates security practices into the DevOps process, ensuring that security is an integral part of the software development lifecycle. The pipeline includes the following key stages and practices:
 
@@ -94,7 +94,7 @@ The OWASP DevSecOps pipeline integrates security practices into the DevOps proce
 
 Based on emerging standards such as the Vulnerability Exploitability eXchange (VEX) and our goal of increasing overall software security through the dissemination of DevGuard, we want to make expert information available from the source.  
 
-![Depiction of a dependency graph with vulnerabilities (CVEs) of a software and the integration of VEX and crowd-based information as well as the DevGuard standard management process. The representation is ASCII art.](./docs/vex-crowd-ascii.png)
+![Depiction of a dependency graph with vulnerabilities (CVEs) of a software and the integration of VEX and crowd-based information as well as the DevGuard standard management process. The representation is ASCII art.](./assets/images/vex-crowd-ascii.png)
 
 ### Vulnerability Exploitability eXchange (VEX) 
 

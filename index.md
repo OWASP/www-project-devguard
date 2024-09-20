@@ -28,7 +28,7 @@ To further illustrate the importance of prioritizing vulnerabilities, consider o
 <img src="assets/images/sankey.png">
 <p>
     <em>Sankey diagram showing the CVSS Base-Score and the adjusted score after applying threat intelligence and the application security requirements to the cvss calculation. The scores then get mapped to their corresponding EPSS (Exploit prediction scoring system).</em>
-
+</p>
 
 ## Key Features
 

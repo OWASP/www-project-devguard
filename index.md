@@ -94,7 +94,7 @@ The OWASP DevSecOps pipeline integrates security practices into the DevOps proce
 
 Based on emerging standards such as the Vulnerability Exploitability eXchange (VEX) and our goal of increasing overall software security through the dissemination of DevGuard, we want to make expert information available from the source.  
 
-![Depiction of a dependency graph with vulnerabilities (CVEs) of a software and the integration of VEX and crowd-based information as well as the DevGuard standard management process. The representation is ASCII art.](./docs/assets/vex-crowd-ascii.png)
+![Depiction of a dependency graph with vulnerabilities (CVEs) of a software and the integration of VEX and crowd-based information as well as the DevGuard standard management process. The representation is ASCII art.](./docs/vex-crowd-ascii.png)
 
 ### Vulnerability Exploitability eXchange (VEX) 
 

@@ -15,7 +15,7 @@
 
 ### Code Repository
 * [GitHub: DevGuard](https://github.com/l3montree-dev/devguard)
-* [GitHub: flawfix-web](https://github.com/l3montree-dev/devguard-web)
+* [GitHub: DevGuard-web](https://github.com/l3montree-dev/devguard-web)
 
 ### External Resources
 

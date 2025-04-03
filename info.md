@@ -1,4 +1,4 @@
-## Project FlawFix
+## Project DevGuard
 
 ![DevGuard Logo](https://raw.githubusercontent.com/l3montree-dev/devguard/b7904fcdfd56b8108a752d6068b9ed9f45ae5f83/images/logo_horizontal.svg)
 

@@ -25,8 +25,8 @@ pitch: A usable central vulnerability management system for developers and secur
 <div align="center">
 
   <picture>
-    <source srcset="images/logo_inverse_horizontal.svg"  media="(prefers-color-scheme: dark)">
-    <img src="images/logo_horizontal.svg" alt="DevGuard by L3montree Logo" width="240" height="80">
+    <source srcset="./assets/images/logo_inverse_horizontal.svg"  media="(prefers-color-scheme: dark)">
+    <img src="./assets/images/logo_horizontal.svg" alt="DevGuard by L3montree Logo" width="240" height="80">
   </picture>
 
   <h3 align="center">DevGuard - Develop Secure Software - Backend</h3>
@@ -267,14 +267,14 @@ Distributed under the AGPL-3.0-or-later License. See [`LICENSE.txt`](LICENSE.txt
 
 We are proud to be supported and working together with the following organizations:
 
-[![OWASP](./images/sp-owasp.png)](https://owasp.org/)
-[![Bonn-Rhein-Sieg University of Applied Science](./images/sp-hbrs.png)](https://www.h-brs.de/)
-[![WhereGroup](./images/sp-wheregroup.png)](https://wheregroup.com/)
-[![DigitalHub](./images/sp-digitalhub.png)](https://www.digitalhub.de/)
-[![WetterOnline](./images/sp-wetteronline.png)](https://wetteronline.de/)
-[![Ikor](./images/sp-ikor.png)](https://ikor.one/)
-[![BusinessCode](./images/bc-logo-white.png)](https://www.business-code.de/)
-[![AfiTec Consulting](./images/AFITEC-Logo-weiß.png)](https://afitec-consulting.de/))
+[![OWASP](./assets/images/sp-owasp.png)](https://owasp.org/)
+[![Bonn-Rhein-Sieg University of Applied Science](./assets/images/sp-hbrs.png)](https://www.h-brs.de/)
+[![WhereGroup](./assets/images/sp-wheregroup.png)](https://wheregroup.com/)
+[![DigitalHub](./assets/images/sp-digitalhub.png)](https://www.digitalhub.de/)
+[![WetterOnline](./assets/images/sp-wetteronline.png)](https://wetteronline.de/)
+[![Ikor](./assets/images/sp-ikor.png)](https://ikor.one/)
+[![BusinessCode](./assets/images/bc-white.png)](https://www.business-code.de/)
+[![AfiTec Consulting](./assets/images/afitec-white.png)](https://afitec-consulting.de/))
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

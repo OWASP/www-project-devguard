@@ -274,7 +274,7 @@ We are proud to be supported and working together with the following organizatio
 [![WetterOnline](./assets/images/sp-wetteronline.png)](https://wetteronline.de/)
 [![Ikor](./assets/images/sp-ikor.png)](https://ikor.one/)
 [![BusinessCode](./assets/images/bc-white.png)](https://www.business-code.de/)
-[![AfiTec Consulting](./assets/images/afitec-white.png)](https://afitec-consulting.de/))
+[![AfiTec Consulting](./assets/images/afitec-white.png)](https://afitec-consulting.de/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -1,13 +1,3 @@
----
-
-layout: col-sidebar
-title: OWASP DevGuard
-tags: devguard flawfix vulnerability-management sbom cve cwe
-level: 2
-type: 
-pitch: A usable central vulnerability management system for developers and security teams.
-
----
 
 <!--
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->

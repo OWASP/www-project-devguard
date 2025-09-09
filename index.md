@@ -267,14 +267,14 @@ Distributed under the AGPL-3.0-or-later License. See [`LICENSE.txt`](LICENSE.txt
 
 We are proud to be supported and working together with the following organizations:
 
-[![OWASP](./images/sponsors/sp-owasp.png)](https://owasp.org/)
-[![Bonn-Rhein-Sieg University of Applied Science](./images/sponsors/sp-hbrs.png)](https://www.h-brs.de/)
-[![WhereGroup](./images/sponsors/sp-wheregroup.png)](https://wheregroup.com/)
-[![DigitalHub](./images/sponsors/sp-digitalhub.png)](https://www.digitalhub.de/)
-[![WetterOnline](./images/sponsors/sp-wetteronline.png)](https://wetteronline.de/)
-[![Ikor](./images/sponsors/sp-ikor.png)](https://ikor.one/)
-[![BusinessCode](./images/sponsors/bc-logo-white.png)](https://www.business-code.de/)
-[![AfiTec Consulting](./images/sponsors/AFITEC-Logo-weiß.png)](https://afitec-consulting.de/))
+[![OWASP](./images/sp-owasp.png)](https://owasp.org/)
+[![Bonn-Rhein-Sieg University of Applied Science](./images/sp-hbrs.png)](https://www.h-brs.de/)
+[![WhereGroup](./images/sp-wheregroup.png)](https://wheregroup.com/)
+[![DigitalHub](./images/sp-digitalhub.png)](https://www.digitalhub.de/)
+[![WetterOnline](./images/sp-wetteronline.png)](https://wetteronline.de/)
+[![Ikor](./images/sp-ikor.png)](https://ikor.one/)
+[![BusinessCode](./images/bc-logo-white.png)](https://www.business-code.de/)
+[![AfiTec Consulting](./images/AFITEC-Logo-weiß.png)](https://afitec-consulting.de/))
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

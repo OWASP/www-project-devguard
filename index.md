@@ -24,9 +24,9 @@ pitch: A usable central vulnerability management system for developers and secur
 <br />
 <div align="center">
 
-  <picture>
+ <picture>
     <source srcset="./assets/images/logo_inverse_horizontal.svg"  media="(prefers-color-scheme: dark)">
-    <img src="./assets/images/logo_horizontal.svg" alt="DevGuard by L3montree Logo" width="240" height="80">
+    <img src="./assets/images/DevGuard-schwarz.png" alt="DevGuard by L3montree Logo" width="240" height="80">
   </picture>
 
   <h3 align="center">DevGuard - Develop Secure Software - Backend</h3>
@@ -48,15 +48,15 @@ pitch: A usable central vulnerability management system for developers and secur
    <a href="https://github.com/l3montree-dev/devguard/blob/main/LICENSE.txt"><img src="https://img.shields.io/badge/license-AGPLv3-purple" alt="License"></a>
    <a href="https://github.com/l3montree-dev/devguard/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22"><img src="https://img.shields.io/badge/Help%20Wanted-Contribute-blue"></a>
    <a href="https://matrix.to/#/#devguard:matrix.org"><img src="https://img.shields.io/matrix/devguard%3Amatrix.org?logo=matrix&label=matrix"></a>
-   <a href="https://main.devguard.org/l3montree-cybersecurity/projects/devguard/assets/devguard/refs/main"><img src="https://api.main.devguard.org/api/v1/badges/cvss/7d404549-3a17-47d8-b732-b26e6a4eeb00" alt="CVSS"></a>
+  </a>
 </p>
 
 <p align="center">
 Get in touch with the developers directly via 
   <a href="https://matrix.to/#/#devguard:matrix.org">Matrix-Chat</a>
+  <br/>
+  Or visit the <a href="https://devguard.org/introduction">Documentation</a> 
 </p>
-Visit the Documentation at: https://devguard.org
-
 <!-- ABOUT THE PROJECT -->
 ## Mission
 

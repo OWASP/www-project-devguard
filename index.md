@@ -25,7 +25,7 @@ pitch: A usable central vulnerability management system for developers and secur
 <div align="center">
 
  <picture>
-    <source srcset="./assets/images/logo_inverse_horizontal.svg"  media="(prefers-color-scheme: dark)">
+    <source srcset="./assets/images/DevGuard-schwarz.png"  media="(prefers-color-scheme: dark)">
     <img src="./assets/images/DevGuard-schwarz.png" alt="DevGuard by L3montree Logo" width="240" height="80">
   </picture>
 
@@ -48,7 +48,6 @@ pitch: A usable central vulnerability management system for developers and secur
    <a href="https://github.com/l3montree-dev/devguard/blob/main/LICENSE.txt"><img src="https://img.shields.io/badge/license-AGPLv3-purple" alt="License"></a>
    <a href="https://github.com/l3montree-dev/devguard/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22"><img src="https://img.shields.io/badge/Help%20Wanted-Contribute-blue"></a>
    <a href="https://matrix.to/#/#devguard:matrix.org"><img src="https://img.shields.io/matrix/devguard%3Amatrix.org?logo=matrix&label=matrix"></a>
-  </a>
 </p>
 
 <p align="center">

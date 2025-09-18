@@ -16,7 +16,7 @@
 
   <picture>
     <source srcset="./assets/images/logo_inverse_horizontal.svg"  media="(prefers-color-scheme: dark)">
-    <img src="./assets/images/logo_horizontal.svg" alt="DevGuard by L3montree Logo" width="240" height="80">
+    <img src="./assets/images/DevGuard-schwarz.png" alt="DevGuard by L3montree Logo" width="240" height="80">
   </picture>
 
   <h3 align="center">DevGuard - Develop Secure Software - Backend</h3>

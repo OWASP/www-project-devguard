@@ -89,14 +89,14 @@ DevGuard comes with a lot of features to make safe Software Development as easy 
 
 We developed an auto setup functionality to speed up the DevGuard integration process.
 
-<img width="3000" height="1680" alt="auto-setup" src="./assets/images/auto-setup-devguard.png" />
+<img width="1000" height="560" alt="auto-setup" src="./assets/images/auto-setup-devguard.png" />
 
 
 #### Enhanced Risk Calculation
 
 When it comes to your actual vulnerability risk, the CVSS score is not enough. To help you prioritise based on the actual risk to your project, we enhance the CVSS score with information about exploitability and calculate the risk score based on your confidentiality, integrity and availability assessment. This ensures that the most important things come first!
 
-<img width="1706" height="973" alt="management" src="./assets/images/cve-management-devguard.png" />
+<img width="853" height="486" alt="management" src="./assets/images/cve-management-devguard.png" />
 
 
 
@@ -104,7 +104,7 @@ When it comes to your actual vulnerability risk, the CVSS score is not enough. T
 
 Security through obscurity may have worked in the past, but we want to develop software using modern methods! The obscurity shouldn't affect you either. That's why we developed DevGuard: to give you full transparency over your dependencies and highlight any vulnerabilities. This is also visible in a fancy dependency graph.
 
-<img width="1702" height="688" alt="deps" src="./assets/images/dependencies-devguard.png" />
+<img width="851" height="344" alt="deps" src="./assets/images/dependencies-devguard.png" />
 
 
 

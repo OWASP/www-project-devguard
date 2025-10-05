@@ -1,0 +1,38 @@
+audience:
+  - builder
+  - defender
+leaders:
+  - name: Tim Bastin
+    email: Tim.bastin@owasp.org
+    github: timbastin
+  - name: Sebastian Kawelke
+    email: Sebastian.kawelke@owasp.org
+    github: seb-kw
+  - name: Frédéric Noppe
+    email: Frédéric.noppe@owasp.org
+level: 2
+license:
+  - AGPL-3.0
+name: OWASP DevGuard
+pitch: A usable central vulnerability management system for developers and security teams.
+repositories:
+  - name: www-project-devguard
+    url: https://github.com/OWASP/www-project-devguard
+    description: OWASP Foundation Web Repository
+  - name: devguard
+    url: https://github.com/l3montree-dev/devguard
+    description: DevGuard Backend - Secure your Software Supply Chain - Attestation-based compliance as Code, manage your CVEs seamlessly, Integrate your
+      Vulnerability Scanners, Security Framework Documentation made easy - OWASP Incubating Project
+  - name: devguard-web
+    url: https://github.com/l3montree-dev/devguard-web
+    description: DevGuard Web Frontend  - Secure your Software Supply Chain - Attestation-based compliance as Code, manage your CVEs seamlessly, Integrate
+      your Vulnerability Scanners, Security Framework Documentation made easy - OWASP Incubating Project
+tags:
+  - devguard
+  - flawfix
+  - vulnerability-management
+  - sbom
+  - cve
+  - cwe
+type: code
+website: https://owasp.org/www-project-devguard

@@ -24,8 +24,8 @@ pitch: A usable central vulnerability management system for developers and secur
 <p align="center">
   <a href="https://devguard.org">
     <picture>
-      <source srcset="docs/logo_inverse_horizontal.svg"  media="(prefers-color-scheme: dark)">
-      <img src="docs/logo_horizontal.svg" alt="DevGuard by L3montree Logo" width="240" height="80">
+      <source srcset="assets/logo_inverse_horizontal.svg"  media="(prefers-color-scheme: dark)">
+      <img src="assets/images/logo_horizontal.svg" alt="DevGuard by L3montree Logo" width="240" height="80">
   </picture>
   </a>
 </p>
@@ -68,7 +68,7 @@ It replaces the patchwork of disconnected scanners, spreadsheets, and manual tri
 
 > This repository contains the **DevGuard Backend** (Go API + PostgreSQL). The web frontend lives at [l3montree-dev/devguard-web](https://github.com/l3montree-dev/devguard-web).
 
-[![Dependency risk overview](docs/screenshots/dependency-risks.png)](docs/screenshots/dependency-risks.png)
+[![Dependency risk overview](assets/images/screenshots/dependency-risks.png)](docs/screenshots/dependency-risks.png)
 
 ## Why DevGuard?
 
@@ -86,7 +86,7 @@ Use DevGuard if you need to:
 
 DevGuard is for developers, DevOps engineers, and security teams. No specialized security knowledge required.
 
-[![VEX rules for triage at scale](docs/screenshots/vex-rules.png)](docs/screenshots/vex-rules.png)
+[![VEX rules for triage at scale](assets/images/screenshots/vex-rules.png)](docs/screenshots/vex-rules.png)
 
 ## Key Capabilities
 
@@ -103,7 +103,7 @@ DevGuard is for developers, DevOps engineers, and security teams. No specialized
 
 [![Dependency insights and analytics](docs/screenshots/dependency-insights.png)](docs/screenshots/dependency-insights.png)
 
-[![Code risk analysis](docs/screenshots/code-risks.png)](docs/screenshots/code-risks.png)
+[![Code risk analysis](assets/images/screenshots/code-risks.png)](docs/screenshots/code-risks.png)
 
 ## Getting started
 
@@ -158,19 +158,19 @@ DevGuard is licensed under **AGPL-3.0-or-later**. See [LICENSE.txt](LICENSE.txt)
 ## Sponsors & Supporters
 
 <p align="center">
-  <a href="https://owasp.org/"><img src="docs/sponsors/sp-owasp.png" alt="OWASP" height="60"></a>
-  <a href="https://www.zendis.de/"><img src="docs/sponsors/sp-zendis.png" alt="ZenDiS" height="60"></a>
-  <a href="https://www.h-brs.de/"><img src="docs/sponsors/sp-hbrs.png" alt="Bonn-Rhein-Sieg University of Applied Sciences" height="60"></a>
-  <a href="https://wheregroup.com/"><img src="docs/sponsors/sp-wg.png" alt="WhereGroup" height="60"></a>
-  <a href="https://wetteronline.de/"><img src="docs/sponsors/sp-wo.png" alt="WetterOnline" height="60"></a>
-  <a href="https://ikor.one/"><img src="docs/sponsors/sp-ikor.png" alt="Ikor" height="60"></a>
-  <a href="https://www.uni-giessen.de/de"><img src="docs/sponsors/sp-jlu.png" alt="JLU" height="60"></a>
-  <a href="https://www.saltrock.de/"><img src="docs/sponsors/sp-saltrock.png" alt="Saltrock" height="60"></a>
-  <a href="https://ready-labs.de/"><img src="docs/sponsors/sp-readylabs.png" alt="Ready Labs" height="60"></a>
-  <a href="https://business-code.de/"><img src="docs/sponsors/sp-bc.png" alt="Business Code" height="60"></a>
-  <a href="https://www.cps-it.de/"><img src="docs/sponsors/sp-cps.png" alt="CPS" height="60"></a>
-  <a href="https://www.cronn.de/"><img src="docs/sponsors/sp-cronn.png" alt="Cronn" height="60"></a>
-  <a href="https://www.heylogin.com/de"><img src="docs/sponsors/sp-heylogin.png" alt="HeyLogin" height="60"></a>
-  <a href="https://opencode.de/de"><img src="docs/sponsors/sp-opencode.png" alt="OpenCode" height="60"></a>
-  <a href="https://www.opendesk.eu/de"><img src="docs/sponsors/sp-opendesk.png" alt="OpenDesk" height="60"></a>
+  <a href="https://owasp.org/"><img src="assets/images/sp-owasp.png" alt="OWASP" height="60"></a>
+  <a href="https://www.zendis.de/"><img src="assets/images/sp-zendis.png" alt="ZenDiS" height="60"></a>
+  <a href="https://www.h-brs.de/"><img src="assets/images/sp-hbrs.png" alt="Bonn-Rhein-Sieg University of Applied Sciences" height="60"></a>
+  <a href="https://wheregroup.com/"><img src="assets/images/sp-wg.png" alt="WhereGroup" height="60"></a>
+  <a href="https://wetteronline.de/"><img src="assets/images/sp-wo.png" alt="WetterOnline" height="60"></a>
+  <a href="https://ikor.one/"><img src="assets/images/sp-ikor.png" alt="Ikor" height="60"></a>
+  <a href="https://www.uni-giessen.de/de"><img src="assets/images/sp-jlu.png" alt="JLU" height="60"></a>
+  <a href="https://www.saltrock.de/"><img src="assets/images/sp-saltrock.png" alt="Saltrock" height="60"></a>
+  <a href="https://ready-labs.de/"><img src="assets/images/sp-readylabs.png" alt="Ready Labs" height="60"></a>
+  <a href="https://business-code.de/"><img src="assets/images/sp-bc.png" alt="Business Code" height="60"></a>
+  <a href="https://www.cps-it.de/"><img src="assets/images/sp-cps.png" alt="CPS" height="60"></a>
+  <a href="https://www.cronn.de/"><img src="assets/images/sp-cronn.png" alt="Cronn" height="60"></a>
+  <a href="https://www.heylogin.com/de"><img src="assets/images/sp-heylogin.png" alt="HeyLogin" height="60"></a>
+  <a href="https://opencode.de/de"><img src="assets/images/sp-opencode.png" alt="OpenCode" height="60"></a>
+  <a href="https://www.opendesk.eu/de"><img src="assets/images/sp-opendesk.png" alt="OpenDesk" height="60"></a>
 </p>

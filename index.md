@@ -21,382 +21,156 @@ pitch: A usable central vulnerability management system for developers and secur
 -->
 
 <!-- PROJECT LOGO -->
-<br />
-<div align="center">
-
- <picture>
-    <source srcset="./assets/images/DevGuard-schwarz.png"  media="(prefers-color-scheme: dark)">
-    <img src="./assets/images/DevGuard-schwarz.png" alt="DevGuard by L3montree Logo" width="240" height="80">
+<p align="center">
+  <a href="https://devguard.org">
+    <picture>
+      <source srcset="docs/logo_inverse_horizontal.svg"  media="(prefers-color-scheme: dark)">
+      <img src="docs/logo_horizontal.svg" alt="DevGuard by L3montree Logo" width="240" height="80">
   </picture>
+  </a>
+</p>
 
-  <h3 align="center">DevGuard - Develop Secure Software - Backend</h3>
-
-  <p align="center">
-    Manage your CVEs seamlessly, Integrate your Vulnerability Scanners, Documentation made easy, Compliance to security Frameworks
-    <br />
-    <br />
-    <a href="https://github.com/l3montree-dev/devguard/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/l3montree-dev/devguard/issues">Request Feature</a>
-    ·
-    <a href="https://github.com/l3montree-dev/devguard?tab=readme-ov-file#sponsors-and-supporters-">Sponsors</a>
-  </p>
-</div>
+<h3 align="center">Open-source vulnerability management for the full software supply chain</h3>
 
 <p align="center">
-   <a href="https://www.bestpractices.dev/projects/8928"><img src="https://www.bestpractices.dev/projects/8928/badge" alt="OpenSSF Badge"></a>
-   <a href="https://github.com/l3montree-dev/devguard/blob/main/LICENSE.txt"><img src="https://img.shields.io/badge/license-AGPLv3-purple" alt="License"></a>
-   <a href="https://github.com/l3montree-dev/devguard/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22"><img src="https://img.shields.io/badge/Help%20Wanted-Contribute-blue"></a>
-   <a href="https://matrix.to/#/#devguard:matrix.org"><img src="https://img.shields.io/matrix/devguard%3Amatrix.org?logo=matrix&label=matrix"></a>
+  An <a href="https://owasp.org/www-project-devguard/">OWASP Incubating Project</a> · Made in Germany 🇩🇪 for Europe 🇪🇺
 </p>
 
 <p align="center">
-Get in touch with the developers directly via 
-  <a href="https://matrix.to/#/#devguard:matrix.org">Matrix-Chat</a>
-  <br/>
-  Or visit the <a href="https://devguard.org/introduction">Documentation</a> 
+  <a href="https://docs.devguard.org">Documentation</a>
+  ·
+  <a href="https://main.devguard.org/l3montree-cybersecurity/projects/devguard">Live Demo</a>
+  ·
+  <a href="https://github.com/l3montree-dev/devguard/issues">Report Bug</a>
+  ·
+  <a href="https://matrix.to/#/#devguard:matrix.org">Chat (Matrix)</a>
 </p>
-<!-- ABOUT THE PROJECT -->
-## Mission
 
-DevGuard is built by developers, for developers, aiming to simplify the complex world of vulnerability management. Our goal is to integrate security seamlessly into the software development lifecycle, ensuring that security practices are accessible and efficient for everyone, regardless of their security expertise.
+<p align="center">
+  <a href="https://www.bestpractices.dev/projects/8928"><img src="https://www.bestpractices.dev/projects/8928/badge" alt="OpenSSF Best Practices"></a>
+  <a href="https://goreportcard.com/report/github.com/l3montree-dev/devguard"><img src="https://goreportcard.com/badge/github.com/l3montree-dev/devguard" alt="Go Report Card"></a>
+  <a href="LICENSE.txt"><img src="https://img.shields.io/badge/license-AGPLv3-purple" alt="License: AGPL-3.0"></a>
+  <a href="https://github.com/l3montree-dev/devguard/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22"><img src="https://img.shields.io/badge/Help%20Wanted-Contribute-blue" alt="Help Wanted"></a>
+  <a href="https://matrix.to/#/#devguard:matrix.org"><img src="https://img.shields.io/matrix/devguard%3Amatrix.org?logo=matrix&label=matrix" alt="Matrix"></a>
+  <a href="https://main.devguard.org/l3montree-cybersecurity/projects/devguard/assets/devguard/refs/main"><img src="https://api.main.devguard.org/api/v1/public/e1f24270-6e68-4571-9168-9c151c639c97/refs/main/artifacts/pkg%3Aoci%2Fdevguard%3Frepository_url%3Dghcr.io%2Fl3montree-dev%2Fdevguard%26arch%3Damd64%26tag%3Dmain-amd64/badges/cvss/" alt="CVSS"></a>
+</p>
 
-### Demo
+> [!NOTE]
+> Join the monthly [DevGuard Open Community Call](https://meet.mailbox.org/room/dad9052b-7b28-40c8-bf6c-462798a88827?invite=1b3e44cc-2e46-4050-8359-bee002d8bbfe) — always at 17:00 (UTC+2). Help shape new features and discuss contributions. For support, join the [community Matrix space](https://matrix.to/#/#devguard:matrix.org).
 
-We are using DevGuard to scan and manage the risks of DevGuard itself—essentially eating our own dogfood. The project can be found here:
+---
 
-[DEMO](https://main.devguard.org/l3montree-cybersecurity/projects/devguard)
+## What is DevGuard?
 
-We believe VEX information should be shared via a link due to its dynamic nature, as what is risk-free today may be affected by a CVE tomorrow. We've integrated the DevGuard risk scoring into the metrics, with detailed documentation on its calculation to follow soon. SBOM and VEX data are always up to date at these links: 
+**DevGuard is a single platform that finds, prioritizes, and tracks vulnerabilities across your entire software supply chain** — from source code and third-party dependencies to container images, infrastructure-as-code, and deployed artifacts.
 
-|Project|SBOM|VeX|
-|---|---|---|
-|[Devguard Golang API](https://github.com/l3montree-dev/devguard)|[SBOM](https://main.devguard.org/l3montree-cybersecurity/projects/devguard/assets/devguard/refs/main/sbom.json?scanner=github.com%2Fl3montree-dev%2Fdevguard%2Fcmd%2Fdevguard-scanner%2Fcontainer-scanning)|[VeX](https://main.devguard.org/l3montree-cybersecurity/projects/devguard/assets/devguard/refs/main/vex.json?scanner=github.com%2Fl3montree-dev%2Fdevguard%2Fcmd%2Fdevguard-scanner%2Fcontainer-scanning)|
-|[Devguard Web-Frontend](https://github.com/l3montree-dev/devguard-web)|[SBOM](https://main.devguard.org/l3montree-cybersecurity/projects/devguard/assets/devguard-web/refs/main/sbom.json?scanner=github.com%2Fl3montree-dev%2Fdevguard%2Fcmd%2Fdevguard-scanner%2Fcontainer-scanning)|[VeX](https://main.devguard.org/l3montree-cybersecurity/projects/devguard/assets/devguard-web/refs/main/vex.json?scanner=github.com%2Fl3montree-dev%2Fdevguard%2Fcmd%2Fdevguard-scanner%2Fcontainer-scanning)|
+It replaces the patchwork of disconnected scanners, spreadsheets, and manual triage with one system that **scans, prioritizes, tracks, and documents** security findings across the whole SDLC. DevGuard is built exclusively on open standards — SBOM, VEX, SARIF, SLSA, in-toto — so there's no vendor lock-in and no proprietary formats.
 
-### The problem we solve
+> This repository contains the **DevGuard Backend** (Go API + PostgreSQL). The web frontend lives at [l3montree-dev/devguard-web](https://github.com/l3montree-dev/devguard-web).
 
-Identifying and managing software vulnerabilities is an increasingly critical challenge. Developers often face security issues without the proper training or tools that fit into their everyday workflows. DevGuard is a developer-centered software designed to provide simple, modern solutions for vulnerability detection and management, compliant with common security frameworks.
+[![Dependency risk overview](docs/screenshots/dependency-risks.png)](docs/screenshots/dependency-risks.png)
 
-In 2023 alone, cyberattacks caused approximately 206 billion euros in damage only in Germany. Many of these attacks exploited software vulnerabilities. With agile and DevOps methodologies becoming standard, the need for integrating security into the development process has never been greater. We aim to fill this gap with DevGuard, offering a seamless integration of vulnerability management into development workflows.
+## Why DevGuard?
 
+Traditional security tools treat vulnerability management as something separate from development — generating 50–80% false-positive noise, living in spreadsheets, and demanding context switches from engineers who just want to ship. DevGuard flips that: security intelligence is delivered where developers already work (pull requests, CI, issue trackers), and real risks surface first thanks to multi-dimensional scoring.
 
-### DevGuard Features
+Use DevGuard if you need to:
 
-DevGuard comes with a lot of features to make safe Software Development as easy as possible for you. Here are some impressions of feature you will experience while using DevGuard:
+- **Know what's in your software** — automated SBOM generation and dependency tracking across all projects.
+- **Find vulnerabilities continuously** — SCA, SAST, secret scanning, IaC, container scanning, and license compliance, all from one CLI.
+- **Cut through the noise** — risk-based prioritization using CVSS + EPSS + component depth + your CIA assessment, not raw CVSS alone.
+- **Triage at scale** — VEX-based assessment workflows and reusable VEX rules to handle recurring false positives once, not per project.
+- **Block malicious packages** — Dependency Firewall for npm, Go, and Python that checks packages before they enter your codebase.
+- **Meet compliance requirements** — automated evidence for ISO 27001, Cyber Resilience Act (CRA), BSI IT-Grundschutz, and SLSA.
+- **Share transparency data** — live SBOM and VEX endpoints that stay current, because a dependency safe today can have a CVE tomorrow.
 
-#### Auto-Setup
+DevGuard is for developers, DevOps engineers, and security teams. No specialized security knowledge required.
 
-We developed an auto setup functionality to speed up the DevGuard integration process.
+[![VEX rules for triage at scale](docs/screenshots/vex-rules.png)](docs/screenshots/vex-rules.png)
 
-<img width="1000" height="560" alt="auto-setup" src="./assets/images/auto-setup-devguard.png" />
+## Key Capabilities
 
+| Capability | What it does |
+| --- | --- |
+| **Full DevSecOps pipeline** | Secret scanning, SAST, SCA, IaC scanning, container scanning, and license compliance — one CLI, one CI integration |
+| **Risk-based prioritization** | Scores every finding as `(CVSS-BE × (EPSS + 1)) / 2 / Component Depth` so you fix what actually matters first |
+| **SBOM & VEX management** | CycloneDX SBOMs, full VEX workflows, and **live** SBOM/VEX endpoints that always reflect current state |
+| **Dependency Firewall** | Proxies npm, Go, and Python registries — blocks known-malicious and vulnerable packages before download |
+| **Supply-chain integrity** | in-toto attestations, SLSA provenance, cosign signatures, reproducible builds with Nix |
+| **Policy enforcement** | Organization-wide security policies written in OPA/Rego, enforced automatically |
+| **Bring your own scanner** | Ingests SBOM (CycloneDX) and SARIF from Trivy, Grype, Semgrep, and any standards-compliant tool |
+| **Issue tracker integration** | GitHub Issues, GitLab Issues, and Jira — bidirectional sync with slash-command triage |
 
-#### Enhanced Risk Calculation
+[![Dependency insights and analytics](docs/screenshots/dependency-insights.png)](docs/screenshots/dependency-insights.png)
 
-When it comes to your actual vulnerability risk, the CVSS score is not enough. To help you prioritise based on the actual risk to your project, we enhance the CVSS score with information about exploitability and calculate the risk score based on your confidentiality, integrity and availability assessment. This ensures that the most important things come first!
+[![Code risk analysis](docs/screenshots/code-risks.png)](docs/screenshots/code-risks.png)
 
-<img width="853" height="486" alt="management" src="./assets/images/cve-management-devguard.png" />
+## Getting started
 
+The full documentation lives at **[docs.devguard.org](https://docs.devguard.org)**. It covers installation, quickstart, CI/CD integration, scanner usage, and configuration.
 
+For details on connecting to your CI, setting up the dependency firewall, or self-hosting in production, see the [documentation](https://docs.devguard.org).
 
-#### Dependency overview
 
-Security through obscurity may have worked in the past, but we want to develop software using modern methods! The obscurity shouldn't affect you either. That's why we developed DevGuard: to give you full transparency over your dependencies and highlight any vulnerabilities. This is also visible in a fancy dependency graph.
 
-<img width="851" height="344" alt="deps" src="./assets/images/dependencies-devguard.png" />
+## Documentation
 
+The full documentation lives at **[docs.devguard.org](https://docs.devguard.org)**. Start here:
 
+- 🚀 [Quickstart](https://docs.devguard.org/getting-started) — spin up DevGuard and run your first scan
+- 🧠 [Key Concepts in 2 minutes](https://docs.devguard.org/getting-started/key-concepts) — organizations, groups, assets, artifacts
+- 📊 [Risk Calculation](https://docs.devguard.org/explanations/core-concepts/risk-scoring) — how findings are scored and prioritized
+- 🛡️ [Dependency Firewall](https://docs.devguard.org/how-to-guides/security/dependency-proxy) — block malicious packages before they reach your code
+- ✅ [CRA Compliance](https://devguard.org/cra_compliance) — what DevGuard covers under the EU Cyber Resilience Act
 
+## Live Demo
 
-<!-- CONTRIBUTING -->
-## Contributing
+We scan DevGuard with DevGuard. Browse the public instance to see real vulnerability data, SBOMs, and VEX assessments on a live project:
 
-We welcome contributions! Please read our [contribution guide](./CONTRIBUTING.md) if you would like to report a bug, ask a question, write issues, or help us with coding. All help is appreciated!
+**[main.devguard.org/l3montree-cybersecurity/projects/devguard](https://main.devguard.org/l3montree-cybersecurity/projects/devguard)**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Live (always-current) SBOM and VEX endpoints for this project:
 
-<!-- Code of Conduct -->
-## Code of Conduct
+| Component | SBOM | VEX |
+| --- | --- | --- |
+| [Backend (this repo)](https://github.com/l3montree-dev/devguard) | [SBOM](https://api.main.devguard.org/api/v1/public/e1f24270-6e68-4571-9168-9c151c639c97/refs/main/artifacts/pkg%3Aoci%2Fdevguard%3Frepository_url%3Dghcr.io%2Fl3montree-dev%2Fdevguard%26arch%3Damd64%26tag%3Dmain-amd64/sbom.json/) | [VEX](https://api.main.devguard.org/api/v1/public/e1f24270-6e68-4571-9168-9c151c639c97/refs/main/artifacts/pkg%3Aoci%2Fdevguard%3Frepository_url%3Dghcr.io%2Fl3montree-dev%2Fdevguard%26arch%3Damd64%26tag%3Dmain-amd64/vex.json/) |
+| [Web Frontend](https://github.com/l3montree-dev/devguard-web) | [SBOM](https://api.main.devguard.org/api/v1/public/169319b7-8170-469f-9e31-f87b6054e507/refs/main/artifacts/pkg%3Aoci%2Fdevguard-web%3Frepository_url%3Dghcr.io%2Fl3montree-dev%2Fdevguard-web%26arch%3Damd64%26tag%3Dmain-amd64/sbom.json/) | [VEX](https://api.main.devguard.org/api/v1/public/169319b7-8170-469f-9e31-f87b6054e507/refs/main/artifacts/pkg%3Aoci%2Fdevguard-web%3Frepository_url%3Dghcr.io%2Fl3montree-dev%2Fdevguard-web%26arch%3Damd64%26tag%3Dmain-amd64/vex.json/) |
 
-Help us keep DevGuard open and inclusive. Please read and follow our [Code of Conduct](CODE_OF_CONDUCT.md).
+## Talks & Presentations
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- **FOSDEM 2026** — *Securing Software for the Public Sector* — [Recording](https://ftp.belnet.be/mirror/FOSDEM/video/2026/aw1120/NK3MJY-securing-software-for-the-public-sector.mp4)
+- **FrOSCon 2025** — *Develop Secure Software — The DevGuard Project* — [Recording](https://media.ccc.de/v/froscon2025-3322-develop_secure_software_-_the_devguard_project)
 
-## Built With
+## Community & Contributing
 
-DevGuard is divided into two projects: A frontend (DevGuard Web) and a backend (DevGuard Backend). 
+- 💬 **Chat:** [Matrix space](https://matrix.to/#/#devguard:matrix.org)
+- 💡 **Discussions:** [GitHub Discussions](https://github.com/l3montree-dev/devguard/discussions)
+- 🐛 **Bugs / feature requests:** [GitHub Issues](https://github.com/l3montree-dev/devguard/issues)
+- 📅 **Monthly community call:** see the note at the top of this README
+- 👷 **Contribute:** read the [contribution guide](CONTRIBUTING.md) and pick up a [help wanted](https://github.com/l3montree-dev/devguard/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) issue
 
-**Backend (this project):**
-* [![Go][go.dev]][go-url]
+Please follow the [Code of Conduct](CODE_OF_CONDUCT.md) when participating.
 
-**Frontend:**
-* Please refer to: [DevGuard-Web on Github](https://github.com/l3montree-dev/devguard-web)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Database Migrations
-
-DevGuard uses [golang-migrate](https://github.com/golang-migrate/migrate) for database schema management. All migrations are embedded in the binary and run automatically on startup.
-
-### How Database Migrations Work
-
-1. **Automatic Migration**: By default, migrations run automatically when the application starts
-2. **Environment Control**: Set `DISABLE_AUTOMIGRATE=true` to disable automatic migrations
-3. **Embedded Migrations**: Migration files are embedded in the binary for easy deployment
-4. **Idempotent**: Migrations can be run multiple times safely
-
-### Creating New Migrations
-
-#### 1. Install the Migration Tool
-
-The project includes golang-migrate as a tool dependency. Install it using:
-
-```bash
-go get -tool github.com/golang-migrate/migrate/v4/cmd/migrate
-```
-
-#### 2. Create a New Migration
-
-```bash
-# Create a new migration file pair (.up.sql and .down.sql)
-go tool migrate create -ext sql -dir internal/database/migrations your_migration_name
-
-# Example: Adding a new table
-go tool migrate create -ext sql -dir internal/database/migrations add_user_preferences_table
-```
-
-This creates two files:
-- `internal/database/migrations/YYYYMMDDHHMMSS_your_migration_name.up.sql` - Forward migration
-- `internal/database/migrations/YYYYMMDDHHMMSS_your_migration_name.down.sql` - Rollback migration
-
-#### 3. Write Your Migration
-
-**Example: Adding a new table**
-
-`20250801120000_add_user_preferences_table.up.sql`:
-```sql
--- Create user preferences table
-CREATE TABLE IF NOT EXISTS user_preferences (
-    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-    user_id TEXT NOT NULL,
-    theme TEXT DEFAULT 'light',
-    notifications_enabled BOOLEAN DEFAULT true,
-    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),
-    updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()
-);
-
--- Add index for faster lookups
-CREATE INDEX IF NOT EXISTS idx_user_preferences_user_id ON user_preferences(user_id);
-```
-
-`20250801120000_add_user_preferences_table.down.sql`:
-```sql
--- Remove the user preferences table
-DROP TABLE IF EXISTS user_preferences CASCADE;
-```
-
-**Example: Adding a column**
-
-`20250801130000_add_email_to_users.up.sql`:
-```sql
--- Add email column to existing users table
-ALTER TABLE users ADD COLUMN IF NOT EXISTS email TEXT;
-
--- Add index for email lookups
-CREATE INDEX IF NOT EXISTS idx_users_email ON users(email);
-```
-
-`20250801130000_add_email_to_users.down.sql`:
-```sql
--- Remove email column from users table
-ALTER TABLE users DROP COLUMN IF EXISTS email CASCADE;
-```
-
-**Example: Adding foreign key constraints**
-
-`20250801140000_add_user_organization_fk.up.sql`:
-```sql
--- Add foreign key constraint
-ALTER TABLE users 
-ADD CONSTRAINT IF NOT EXISTS fk_users_organization 
-FOREIGN KEY (organization_id) REFERENCES organizations(id) ON DELETE CASCADE;
-```
-
-`20250801140000_add_user_organization_fk.down.sql`:
-```sql
--- Remove foreign key constraint
-ALTER TABLE users DROP CONSTRAINT IF EXISTS fk_users_organization;
-```
-
-#### 4. Best Practices
-
-- **Always use IF NOT EXISTS/IF EXISTS**: Makes migrations idempotent
-- **Include rollback logic**: Always write the down migration
-- **Test migrations**: Test both up and down migrations on a copy of production data
-- **Small incremental changes**: Keep migrations focused and atomic
-- **Use transactions implicitly**: PostgreSQL wraps DDL in transactions automatically
-- **Descriptive names**: Use clear, descriptive migration names
-
-#### 5. Manual Migration Commands
-
-```bash
-# Check migration status
-go tool migrate -database "postgres://user:pass@localhost:5432/devguard?sslmode=disable" -path internal/database/migrations version
-
-# Run migrations manually
-go tool migrate -database "postgres://user:pass@localhost:5432/devguard?sslmode=disable" -path internal/database/migrations up
-
-# Rollback one migration
-go tool migrate -database "postgres://user:pass@localhost:5432/devguard?sslmode=disable" -path internal/database/migrations down 1
-
-# Rollback to specific version
-go tool migrate -database "postgres://user:pass@localhost:5432/devguard?sslmode=disable" -path internal/database/migrations goto 20250801120000
-```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
 ## License
 
-Distributed under the AGPL-3.0-or-later License. See [`LICENSE.txt`](LICENSE.txt) for more information.
+DevGuard is licensed under **AGPL-3.0-or-later**. See [LICENSE.txt](LICENSE.txt).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Sponsors & Supporters
 
-## Sponsors and Supporters 🚀
-
-We are proud to be supported and working together with the following organizations:
-
-[![OWASP](./assets/images/sp-owasp.png)](https://owasp.org/)
-[![Bonn-Rhein-Sieg University of Applied Science](./assets/images/sp-hbrs.png)](https://www.h-brs.de/)
-[![WhereGroup](./assets/images/sp-wheregroup.png)](https://wheregroup.com/)
-[![DigitalHub](./assets/images/sp-digitalhub.png)](https://www.digitalhub.de/)
-[![WetterOnline](./assets/images/sp-wetteronline.png)](https://wetteronline.de/)
-[![Ikor](./assets/images/sp-ikor.png)](https://ikor.one/)
-[![BusinessCode](./assets/images/bc-white.png)](https://www.business-code.de/)
-[![AfiTec Consulting](./assets/images/afitec-white.png)](https://afitec-consulting.de/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[go.dev]: https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white
-[go-url]: https://go.dev
-
-
-### DEVGUARD-SCANNER
-
-#### Build the scanner
-```bash
-docker build . -f Dockerfile.scanner -t devguard-scanner  
-```
-
-#### Use the scanner for sca
-
-```bash
-docker run -v "$(PWD):/app" scanner devguard-scanner sca \
-  --assetName="<ASSET NAME>" \
-  --apiUrl="http://host.docker.internal:8080" \
-  --token="<TOKEN>" \
-  --path="/app"
-```
-
-#### Using the scanner during development
-
-```bash
-go run ./cmd/devguard-scanner/main.go sca \
-  --assetName="<ASSET NAME>" \
-  --apiUrl="http://localhost:8080" \
-  --token="<TOKEN>"
-```
-
-
-#### Scan a container
-
-##### Build a image.tar from a dockerfile using kaniko
-
-```bash
-docker run --rm -v $(pwd):/workspace gcr.io/kaniko-project/executor:latest --dockerfile=/workspace/Dockerfile --context=/workspace --tarPath=/workspace/image.tar --no-push
-```
-
-##### Scan the .tar
-```bash
-docker run -v "$(PWD):/app" scanner devguard-scanner container-scanning \
-  --assetName="<ASSET NAME>" \
-  --apiUrl="http://host.docker.internal:8080" \
-  --token="<TOKEN>" \
-  --path="/app/image.tar"
-```
-
-
-## Understanding the OWASP DevSecOps Pipeline
-
-> DevGuard aims to accompany developers in implementing the OWASP-DevSecOps pipeline in the best way possible, without requiring extensive cybersecurity knowledge. We plan provide a wrapper CLI to a curated list of scanners for different stages and seamless integration with the management backend, ensuring that security is integrated smoothly into the development workflow.
-
-<img src="assets/images/devsecops-pipeline.png">
-
-The OWASP DevSecOps pipeline integrates security practices into the DevOps process, ensuring that security is an integral part of the software development lifecycle. The pipeline includes the following key stages and practices:
-
-### Secret Scanning (Coming Soon)
-
-- Detects and manages sensitive information such as API keys and passwords that may be accidentally committed to the codebase.
-- Helps prevent security breaches by identifying secrets early in the development process.
-
-### Software Composition Analysis (SCA)
-
-- Utilizes Software Bill of Materials (SBOMs) to conduct thorough software composition analysis.
-- Helps in identifying and managing dependencies and their associated vulnerabilities.
-- Prioritizes CVEs using various threat intelligence sources such as EPSS and ExploitDB.
-- Focuses on the real risk posed by vulnerabilities, converting "—fail-on-critical" to "—fail-on-real-risk-critical".
-- Syncs with the National Vulnerability Database (NVD) to ensure up-to-date information on vulnerabilities.
-
-#### Crowdsourced Vulnerability Management
-
-- Supports a crowdsourced approach to vulnerability management.
-- If a dependency (A) has another dependency (B) with a CVE, users can consult A to determine the relevance of B's CVE to their project.
-- Allows marking vulnerabilities as false positives, sharing this information across the user community for the same A -> B relationship.
-
-### Static Application Security Testing (SAST) (Coming Soon)
-
-- Analyzes source code to identify security vulnerabilities early in the development process.
-- Provides developers with actionable insights to fix vulnerabilities before they become critical issues.
-
-
-### Infrastructure as Code (IaC) Scanning 
-
-- Ensures that infrastructure definitions and configurations adhere to security best practices.
-- Detects misconfigurations and vulnerabilities in IaC templates early in the development cycle.
-
-### Container Scanning (Coming Soon)
-
-- Scans container images for vulnerabilities, ensuring that the containerized applications are secure.
-- Helps maintain the security of containerized environments by identifying and mitigating risks in container images.
-
-### Dynamic Application Security Testing (DAST) 
-
-- Tests running applications to identify vulnerabilities that may not be visible in the source code.
-- Simulates real-world attacks to uncover potential security weaknesses in live environments.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## Joint vulnerability management - the strength of exchange
-
-Based on emerging standards such as the Vulnerability Exploitability eXchange (VEX) and our goal of increasing overall software security through the dissemination of DevGuard, we want to make expert information available from the source.  
-
-![Depiction of a dependency graph with vulnerabilities (CVEs) of a software and the integration of VEX and crowd-based information as well as the DevGuard standard management process. The representation is ASCII art.](./assets/images/vex-crowd-ascii.png)
-
-### Vulnerability Exploitability eXchange (VEX) 
-
-> “The goal of Vulnerability Exploitability eXchange (VEX) is to allow a software supplier or other parties to assert the status of specific vulnerabilities in a particular product.” ([CISA](https://www.cisa.gov/sites/default/files/publications/VEX_Use_Cases_Apr22.pdf))
-
-VEX is an advanced form of security advisory that provides several key advantages over conventional methods:
-
-1. Machine Readability
-2. Enhanced SBOM Integration
-3. Automation Support
-
-For instance, consider an open-source project, “XY-Example,” which detects a vulnerability through a dependency. Upon closer inspection, the developers determine that the specific conditions required to exploit this vulnerability are not present in their software. This expert assessment can be recorded and disseminated through VEX, making it accessible and usable for all users of the “XY-Example” software. This exchange of vulnerability information drastically reduces the effort required for vulnerability management, as users can rely on expert evaluations to determine their exposure to potential threats.
-
-### Crowdsourced
-
-If the VEX is not available and in its addition, we can also use the knowledge of the crowd. If enough users confirm that a vulnerability in a software is not relevant, we can make this information available to others as a preset. In this way, we expand the foundation for joint vulnerability management and make it even easier.
+<p align="center">
+  <a href="https://owasp.org/"><img src="docs/sponsors/sp-owasp.png" alt="OWASP" height="60"></a>
+  <a href="https://www.zendis.de/"><img src="docs/sponsors/sp-zendis.png" alt="ZenDiS" height="60"></a>
+  <a href="https://www.h-brs.de/"><img src="docs/sponsors/sp-hbrs.png" alt="Bonn-Rhein-Sieg University of Applied Sciences" height="60"></a>
+  <a href="https://wheregroup.com/"><img src="docs/sponsors/sp-wg.png" alt="WhereGroup" height="60"></a>
+  <a href="https://wetteronline.de/"><img src="docs/sponsors/sp-wo.png" alt="WetterOnline" height="60"></a>
+  <a href="https://ikor.one/"><img src="docs/sponsors/sp-ikor.png" alt="Ikor" height="60"></a>
+  <a href="https://www.uni-giessen.de/de"><img src="docs/sponsors/sp-jlu.png" alt="JLU" height="60"></a>
+  <a href="https://www.saltrock.de/"><img src="docs/sponsors/sp-saltrock.png" alt="Saltrock" height="60"></a>
+  <a href="https://ready-labs.de/"><img src="docs/sponsors/sp-readylabs.png" alt="Ready Labs" height="60"></a>
+  <a href="https://business-code.de/"><img src="docs/sponsors/sp-bc.png" alt="Business Code" height="60"></a>
+  <a href="https://www.cps-it.de/"><img src="docs/sponsors/sp-cps.png" alt="CPS" height="60"></a>
+  <a href="https://www.cronn.de/"><img src="docs/sponsors/sp-cronn.png" alt="Cronn" height="60"></a>
+  <a href="https://www.heylogin.com/de"><img src="docs/sponsors/sp-heylogin.png" alt="HeyLogin" height="60"></a>
+  <a href="https://opencode.de/de"><img src="docs/sponsors/sp-opencode.png" alt="OpenCode" height="60"></a>
+  <a href="https://www.opendesk.eu/de"><img src="docs/sponsors/sp-opendesk.png" alt="OpenDesk" height="60"></a>
+</p>

@@ -24,7 +24,7 @@ pitch: A usable central vulnerability management system for developers and secur
 <p align="center">
   <a href="https://devguard.org">
     <picture>
-      <source srcset="assets/images/logo_inverse_horizontal.svg"  media="(prefers-color-scheme: dark)">
+      <source srcset="assets/images/logo_horizontal.svg"  media="(prefers-color-scheme: dark)">
       <img src="assets/images/logo_horizontal.svg" alt="DevGuard by L3montree Logo" width="240" height="80">
   </picture>
   </a>

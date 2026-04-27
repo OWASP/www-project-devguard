@@ -24,7 +24,7 @@ pitch: A usable central vulnerability management system for developers and secur
 <p align="center">
   <a href="https://devguard.org">
     <picture>
-      <source srcset="assets/logo_inverse_horizontal.svg"  media="(prefers-color-scheme: dark)">
+      <source srcset="assets/images/logo_inverse_horizontal.svg"  media="(prefers-color-scheme: dark)">
       <img src="assets/images/logo_horizontal.svg" alt="DevGuard by L3montree Logo" width="240" height="80">
   </picture>
   </a>
@@ -68,7 +68,7 @@ It replaces the patchwork of disconnected scanners, spreadsheets, and manual tri
 
 > This repository contains the **DevGuard Backend** (Go API + PostgreSQL). The web frontend lives at [l3montree-dev/devguard-web](https://github.com/l3montree-dev/devguard-web).
 
-[![Dependency risk overview](assets/images/screenshots/dependency-risks.png)](docs/screenshots/dependency-risks.png)
+[![Dependency risk overview](assets/images/dependency-risks.png)](docs/screenshots/dependency-risks.png)
 
 ## Why DevGuard?
 
@@ -86,7 +86,7 @@ Use DevGuard if you need to:
 
 DevGuard is for developers, DevOps engineers, and security teams. No specialized security knowledge required.
 
-[![VEX rules for triage at scale](assets/images/screenshots/vex-rules.png)](docs/screenshots/vex-rules.png)
+[![VEX rules for triage at scale](assets/images/vex-rules.png)](docs/screenshots/vex-rules.png)
 
 ## Key Capabilities
 
@@ -101,9 +101,9 @@ DevGuard is for developers, DevOps engineers, and security teams. No specialized
 | **Bring your own scanner** | Ingests SBOM (CycloneDX) and SARIF from Trivy, Grype, Semgrep, and any standards-compliant tool |
 | **Issue tracker integration** | GitHub Issues, GitLab Issues, and Jira — bidirectional sync with slash-command triage |
 
-[![Dependency insights and analytics](docs/screenshots/dependency-insights.png)](docs/screenshots/dependency-insights.png)
+[![Dependency insights and analytics](assets/images/dependency-insights.png)](docs/screenshots/dependency-insights.png)
 
-[![Code risk analysis](assets/images/screenshots/code-risks.png)](docs/screenshots/code-risks.png)
+[![Code risk analysis](assets/images/code-risks.png)](docs/screenshots/code-risks.png)
 
 ## Getting started
 
